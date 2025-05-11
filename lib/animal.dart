@@ -152,7 +152,7 @@ class _ANIMALState extends State<ANIMAL> {
                           Text(
                             animal_image_name1,
                             style: TextStyle(
-                              fontSize: screenWidth * 0.08,
+                              fontSize: screenWidth * 0.06,
                               fontFamily: "Chuby",
                               color: Colors.greenAccent,
                             ),

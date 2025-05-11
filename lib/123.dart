@@ -102,17 +102,17 @@ class _ABCState extends State<MATH> {
                 // ),
                 Center(
                   child: Container(
-                    height: screenHeight * 0.7,
+                    height: screenHeight * 0.9,
                     width: screenWidth * 0.5,
                     // color: Colors.red,
                     child: Center(
                       child: Padding(
-                        padding:  EdgeInsets.only(top: screenHeight*0.2),
+                        padding:  EdgeInsets.only(top: screenHeight*0.08),
                         child: Text(
                               counting_store,
                               style: TextStyle(
                                 fontFamily: 'Titan',
-                                fontSize: screenWidth * 0.3,
+                                fontSize: screenWidth * 0.25,
                                 color: const Color.fromARGB(255, 245, 24, 68),
                               ),
                             ),
