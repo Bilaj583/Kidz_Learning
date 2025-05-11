@@ -4,6 +4,7 @@ import 'package:kids_learning/abc.dart';
 import 'package:kids_learning/123.dart';
 import 'package:kids_learning/animal.dart';
 import 'package:kids_learning/urdu.dart';
+import 'package:kids_learning/vegetable.dart';
 
 
 
@@ -100,7 +101,7 @@ class _FirstPageState extends State<FirstPage> {
     boxes(context, 'assets/images/urdu.jpeg', () => URDU()),
     boxes(context, 'assets/images/123.jpg', () => ALHPABETS()),
     boxes(context, 'assets/images/2.jpeg', () => ABC()),
-     boxes(context, 'assets/images/abc.jpg', () => ABC()),
+     boxes(context, 'assets/images/abc.jpg', () => VEGETABLE()),
     boxes(context, 'assets/images/123.jpg', () => ABC()),
     boxes(context, 'assets/images/2.jpeg', () => ABC()),
     boxes(context, 'assets/images/abc.jpg', () => ABC()),
