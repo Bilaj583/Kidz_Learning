@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kids_learning/a_alphabet.dart';
 import 'package:kids_learning/abc.dart';
 import 'package:kids_learning/123.dart';
 import 'package:kids_learning/animal.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Kids Learning',
       debugShowCheckedModeBanner: false,
-      home: const FirstPage(),
+      home:  FirstPage(),
     );
   }
 }
@@ -97,7 +98,7 @@ class _FirstPageState extends State<FirstPage> {
     boxes(context, 'assets/images/123.jpg', () => MATH()),
     boxes(context, 'assets/images/10.jpg', () => ANIMAL()),
     boxes(context, 'assets/images/urdu.jpeg', () => URDU()),
-    boxes(context, 'assets/images/123.jpg', () => ABC()),
+    boxes(context, 'assets/images/123.jpg', () => ALHPABETS()),
     boxes(context, 'assets/images/2.jpeg', () => ABC()),
      boxes(context, 'assets/images/abc.jpg', () => ABC()),
     boxes(context, 'assets/images/123.jpg', () => ABC()),
