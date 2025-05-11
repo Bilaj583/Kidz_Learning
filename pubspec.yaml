@@ -95,6 +95,12 @@ flutter:
     - family: Titan
       fonts:
         - asset: assets/fonts/TitanOne-Regular.ttf
+    - family: Gulzar
+      fonts:
+        - asset: assets/fonts/Gulzar.ttf
+    - family: noto
+      fonts:
+        - asset: assets/fonts/noto.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

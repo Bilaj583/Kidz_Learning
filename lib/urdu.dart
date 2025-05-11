@@ -114,7 +114,7 @@ class _URDUState extends State< URDU> {
                         child: Text(
                               urdu_store,
                               style: TextStyle(
-                                fontFamily: 'Titan',
+                                fontFamily: 'noto',
                                 fontSize: screenWidth * 0.2,
                                 color: const Color.fromARGB(255, 222, 181, 166),
                               ),
