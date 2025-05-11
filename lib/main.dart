@@ -3,6 +3,7 @@ import 'package:kids_learning/a_alphabet.dart';
 import 'package:kids_learning/abc.dart';
 import 'package:kids_learning/123.dart';
 import 'package:kids_learning/animal.dart';
+import 'package:kids_learning/fruits.dart';
 import 'package:kids_learning/urdu.dart';
 
 
@@ -99,7 +100,7 @@ class _FirstPageState extends State<FirstPage> {
     boxes(context, 'assets/images/10.jpg', () => ANIMAL()),
     boxes(context, 'assets/images/urdu.jpeg', () => URDU()),
     boxes(context, 'assets/images/123.jpg', () => ALHPABETS()),
-    boxes(context, 'assets/images/2.jpeg', () => ABC()),
+    boxes(context, 'assets/images/2.jpeg', () => FRUITS()),
      boxes(context, 'assets/images/abc.jpg', () => ABC()),
     boxes(context, 'assets/images/123.jpg', () => ABC()),
     boxes(context, 'assets/images/2.jpeg', () => ABC()),
