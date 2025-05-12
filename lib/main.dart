@@ -100,7 +100,7 @@ class _FirstPageState extends State<FirstPage> {
     boxes(context, 'assets/images/10.jpg', () => ANIMAL()),
     boxes(context, 'assets/images/urdu.jpeg', () => URDU()),
     boxes(context, 'assets/images/123.jpg', () => ALHPABETS()),
-    boxes(context, 'assets/images/2.jpeg', () => FRUITS()),
+    boxes(context, 'assets/images/15.jpg', () => FRUITS()),
      boxes(context, 'assets/images/abc.jpg', () => ABC()),
     boxes(context, 'assets/images/123.jpg', () => ABC()),
     boxes(context, 'assets/images/2.jpeg', () => ABC()),
