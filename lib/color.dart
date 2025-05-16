@@ -24,11 +24,35 @@ class _COLORState extends State<COLOR> {
     Colors.red,
     Colors.green,
     Colors.yellow,
+    Colors.black,
+    Colors.brown,
+    Colors.cyan,
+    Colors.pink,
+   Colors.purple,
+    Colors.white,
+     Colors.teal,
+     Colors.blue,
+     Colors.grey,
+    //  Colors.orange,
+     Colors.indigo,
+     Colors.lime,
+
   ];
   List<String> color_image_name = [
-   "red",
-   "green",
-   "yellow",
+     "red",
+  "green",
+  "yellow",
+  "black",
+  "brown",
+  "cyan",
+  "pink",
+  "purple",
+  "white",
+  "teal",
+  "blue",
+  "grey",
+  "indigo",
+  "lime",
   ];
   String get currentImagePath => "assets/images/${color_image}";
 
