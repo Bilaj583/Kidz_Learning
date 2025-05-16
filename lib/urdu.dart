@@ -44,7 +44,7 @@ class _URDUState extends State< URDU> {
 
   void _playAudio() async {
     final filename = '$urdu_store.mp3';
-    await _player.play(AssetSource('audio/$filename'));
+    await _player.play(AssetSource('audio/urdu/$filename'));
   }
 
   void move_forward() {

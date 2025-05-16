@@ -41,7 +41,7 @@ class _ABCState extends State<MATH> {
 
   void _playAudio() async {
     final filename = '$counting_store.mp3';
-    await _player.play(AssetSource('audio/$filename'));
+    await _player.play(AssetSource('audio/counting/$filename'));
   }
 
   void move_forward() {

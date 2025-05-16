@@ -21,24 +21,24 @@ class VEGETABLE extends StatefulWidget {
 
 class _VEGETABLEState extends State<VEGETABLE> {
   List<String> vegetable = [
-    "assets/images/beet.png",
-    "assets/images/bellpepper.png",
-    "assets/images/broccoli.png",
-    "assets/images/cabbage.png",
-    "assets/images/carrot.png",
+    "assets/images/vegetables/beet.png",
+    "assets/images/vegetables/bellpepper.png",
+    "assets/images/vegetables/broccoli.png",
+    "assets/images/vegetables/cabbage.png",
+    "assets/images/vegetables/carrot.png",
 
-    "assets/images/cauliflower.png",
-    "assets/images/corn.png",
-    "assets/images/cucumber.png",
-    "assets/images/eggplant.png",
-    "assets/images/lettuce.png",
-    "assets/images/onion.png",
-    "assets/images/pea.png",
-    "assets/images/potato.png",
-    "assets/images/pumpkin.png",
-    "assets/images/radish.png",
-    "assets/images/redchilipepper.png",
-    "assets/images/tomato.png",
+    "assets/images/vegetables/cauliflower.png",
+    "assets/images/vegetables/corn.png",
+    "assets/images/vegetables/cucumber.png",
+    "assets/images/vegetables/eggplant.png",
+    "assets/images/vegetables/lettuce.png",
+    "assets/images/vegetables/onion.png",
+    "assets/images/vegetables/pea.png",
+    "assets/images/vegetables/potato.png",
+    "assets/images/vegetables/pumpkin.png",
+    "assets/images/vegetables/radish.png",
+    "assets/images/vegetables/redchilipepper.png",
+    "assets/images/vegetables/tomato.png",
   ];
   List<String> vegetable_image_name = [
     "Beet",
@@ -59,9 +59,9 @@ class _VEGETABLEState extends State<VEGETABLE> {
   "Redchilipepper",
   "Tomato",
   ];
-  String get currentImagePath => "assets/images/${vegetable_image}";
+  String get currentImagePath => "assets/images/vegetables/${vegetable_image}";
 
-  String vegetable_image = "assets/images/beet.png";
+  String vegetable_image = "assets/images/vegetables/beet.png";
   String vegetable_image_name1 = "beet";
   final AudioPlayer _player = AudioPlayer();
   late Timer _timer;
@@ -76,7 +76,7 @@ class _VEGETABLEState extends State<VEGETABLE> {
 
   void _playAudio() async {
     final filename = '$vegetable_image_name1.mp3';
-    await _player.play(AssetSource('audio/$filename'));
+    await _player.play(AssetSource('audio/vegetables/$filename'));
   }
 
   void move_forward() {

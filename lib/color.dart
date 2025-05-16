@@ -47,7 +47,7 @@ class _COLORState extends State<COLOR> {
 
   void _playAudio() async {
     final filename = '$color_image_name1.mp3';
-    await _player.play(AssetSource('audio/$filename'));
+    await _player.play(AssetSource('audio/color/$filename'));
   }
 
   void move_forward() {

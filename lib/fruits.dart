@@ -21,16 +21,16 @@ class FRUITS extends StatefulWidget {
 
 class _FRUITSSState extends State<FRUITS> {
   List<String> fruits = [
-    "assets/images/banana.png",
-    "assets/images/blueberry.png",
-    "assets/images/cherry.png",
-    "assets/images/kiwi.png",
-    "assets/images/lemon.png",
-    "assets/images/lychee.png",
-    "assets/images/peach.png",
-    "assets/images/pineapple.png",
-    "assets/images/strawberry.png",
-    "assets/images/watermelon.png",
+    "assets/images/fruits/banana.png",
+    "assets/images/fruits/blueberry.png",
+    "assets/images/fruits/cherry.png",
+    "assets/images/fruits/kiwi.png",
+    "assets/images/fruits/lemon.png",
+    "assets/images/fruits/lychee.png",
+    "assets/images/fruits/peach.png",
+    "assets/images/fruits/pineapple.png",
+    "assets/images/fruits/strawberry.png",
+    "assets/images/fruits/watermelon.png",
   ];
   List<String> fruits_image_name = [
     "Banana",
@@ -44,9 +44,9 @@ class _FRUITSSState extends State<FRUITS> {
 "strawberry",
 "Watermelon"
   ];
-  String get currentImagePath => "assets/images/${fruits_image}";
+  String get currentImagePath => "assets/images/fruits/${fruits_image}";
 
-  String fruits_image = "assets/images/banana.png";
+  String fruits_image = "assets/images/fruits/banana.png";
   String fruits_image_name1 = "Banana";
   final AudioPlayer _player = AudioPlayer();
   late Timer _timer;
@@ -61,7 +61,7 @@ class _FRUITSSState extends State<FRUITS> {
 
   void _playAudio() async {
     final filename = '$fruits_image_name1.mp3';
-    await _player.play(AssetSource('audio/$filename'));
+    await _player.play(AssetSource('audio/fruits/$filename'));
   }
 
   void move_forward() {

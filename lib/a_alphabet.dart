@@ -21,32 +21,32 @@ class ALHPABETS extends StatefulWidget {
 
 class _ALHPABETSState extends State<ALHPABETS> {
   List<String> alphabets = [
-    "assets/images/apple.png",
-    "assets/images/ball.png",
-    "assets/images/cat.png",
-    "assets/images/dog.png",
-    "assets/images/elephant.png",
-    "assets/images/flower.png",
-    "assets/images/grapes.png",
-    "assets/images/hat.png",
-    "assets/images/icecream.png",
-    "assets/images/jug.png",
-    "assets/images/kite.png",
-    "assets/images/lamp.png",
-    "assets/images/mango.png",
-    "assets/images/nest.png",
-    "assets/images/orange.png",
-    "assets/images/pencil.png",
-    "assets/images/queen.png",
-    "assets/images/rose.png",
-    "assets/images/sun.png",
-    "assets/images/tiger.png",
-    "assets/images/umbrella.png",
-    "assets/images/van.png",
-    "assets/images/water.png",
-    "assets/images/xray.png",
-    "assets/images/yogart.png",
-    "assets/images/zirafa.png",
+    "assets/images/letter/apple.png",
+    "assets/images/letter/ball.png",
+    "assets/images/letter/cat.png",
+    "assets/images/letter/dog.png",
+    "assets/images/letter/elephant.png",
+    "assets/images/letter/flower.png",
+    "assets/images/letter/grapes.png",
+    "assets/images/letter/hat.png",
+    "assets/images/letter/icecream.png",
+    "assets/images/letter/jug.png",
+    "assets/images/letter/kite.png",
+    "assets/images/letter/lamp.png",
+    "assets/images/letter/mango.png",
+    "assets/images/letter/nest.png",
+    "assets/images/letter/orange.png",
+    "assets/images/letter/pencil.png",
+    "assets/images/letter/queen.png",
+    "assets/images/letter/rose.png",
+    "assets/images/letter/sun.png",
+    "assets/images/letter/tiger.png",
+    "assets/images/letter/umbrella.png",
+    "assets/images/letter/van.png",
+    "assets/images/letter/water.png",
+    "assets/images/letter/xray.png",
+    "assets/images/letter/yogart.png",
+    "assets/images/letter/zirafa.png",
     
     
   ];
@@ -78,9 +78,9 @@ class _ALHPABETSState extends State<ALHPABETS> {
 "Yogart",
 "Zirafa" 
   ];
-  String get currentImagePath => "assets/images/${alphabet_image}";
+  String get currentImagePath => "assets/images/letter/${alphabet_image}";
 
-  String alphabet_image = "assets/images/apple.png";
+  String alphabet_image = "assets/images/letter/apple.png";
   String alphabet_image_name1 = "Apple";
   final AudioPlayer _player = AudioPlayer();
   late Timer _timer;
@@ -95,7 +95,7 @@ class _ALHPABETSState extends State<ALHPABETS> {
 
   void _playAudio() async {
     final filename = '$alphabet_image_name1.mp3';
-    await _player.play(AssetSource('audio/$filename'));
+    await _player.play(AssetSource('audio/letter/$filename'));
   }
 
   void move_forward() {
@@ -173,7 +173,7 @@ class _ALHPABETSState extends State<ALHPABETS> {
                           Padding(
                             padding:  EdgeInsets.only(top: screenHeight*0.16),
                             child: Container(
-                              height: screenHeight * 0.5,
+                              height: screenHeight * 0.4,
                               width: screenWidth * 0.5,
                               // color: Colors.red,
                               child: Image.asset(
